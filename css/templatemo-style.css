@@ -143,7 +143,7 @@ h2 span
 .navbar-default
 	{
 		background: #fff;
-		border: none;
+		border: 0;
 		box-shadow: none;
 		margin: 0 !important;
 	}
@@ -158,6 +158,7 @@ h2 span
 		color: #fff;
 		background-color: #000;
 		width: 300px;
+		border: 1px solid #000;
 	}
 .navbar-default .navbar-brand:hover {
 		background-color: #000;
@@ -184,6 +185,11 @@ h2 span
 	position: fixed;
 	left: 0;
 	top: 0;	
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+	border-radius: 0;
 }
 /* end navigation */
 
@@ -295,9 +301,15 @@ h2 span
 	.gallery-thumb, 
 	.gallery-overlay {
 		max-width: 450px;
+
 	}
 
-#gallery .gallery-thumb
+.col-md-4 .gallery-overlay {
+	overflow: hidden;
+}
+
+#gallery .gallery-thumb,
+#gallery .gallery-overlay,
 	{
 		overflow: hidden;
 		padding: 0;
@@ -306,15 +318,15 @@ h2 span
 #gallery .gallery-thumb .gallery-overlay
 	{
 		background: #28a7e9;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;	
-		width: 100%;
-		height: 100%;
+		top: 5px;
+		left: 5px;
+		right: 5px;
+		bottom: 5px;	
+		width: inherit;
+		height: inherit%;
 		opacity: 0;
 		position: absolute;
-		padding: 20px 10px 20px 20px;
+		padding: 0px;
 		margin-left: auto;
 		margin-right: auto;
 		-webkit-transition: all 0.4s ease-in-out;
@@ -377,22 +389,39 @@ h2 span
 /* end video */
 
 /* start service */
-#service .col-md-4
-	{
-		padding: 40px;
-		-webkit-transition: all 0.4s ease-in-out;
+#resume{
+		padding: 40px 80px 100px;
+}
+
+#resume .agency{
+	text-align: center;
+	padding: 20px 0 10px;
+}
+
+.res-label{
+	text-align: center;
+	padding: 40px 0 15px;
+}
+
+#resume .col-md-4
+	{	
+		text-align: center;
+/*		padding: 40px;
+*/		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
 	}
-#service .col-md-4:hover
-	{
-		background: #505050;
-	}
-#service .active
+
+#resume .col-md-4 hr {
+	border-top:1px solid #28a7e9;
+}
+
+
+#resume .active
 	{
 		background: #505050;
 		padding: 40px;
 	}
-#service .fa
+#resume .fa
 	{
 		border: 1px solid #fff;
 		border-radius: 2px;
@@ -403,14 +432,14 @@ h2 span
 		line-height: 100px;
 		text-align: center;
 	}
-#service h4
+#resume h4
 	{
 		color: #28a7e9;
 		font-weight: 600;
-		padding-top: 10px;
+		padding-top: 4px;
 		padding-bottom: 14px;
 	}
-/* end service */
+/* end resume */
 
 
 
@@ -480,7 +509,8 @@ h2 span
 /* start copyright */
 #copyright
 	{
-		padding: 20px;
+		padding: 30px 0 25px;
+		background-color: #000;
 	}
 #copyright p
 	{
