@@ -142,32 +142,28 @@ h2 span
 /* start nagivation */
 .navbar-default
 	{
-		background: #fff;
+		background: #000;
 		border: 0;
 		box-shadow: none;
 		margin: 0 !important;
 	}
-.navbar-default .navbar-brand
+.navbar-default .navbar-brand img 
 	{
-		text-align: center;
-		font-weight: 500;
-		font-size: 22px;
-		height: 70px;
+		margin: 0 100px;
+		height: 80px;
 		line-height: 40px;
 		padding: 12px 20px 12px;
 		color: #fff;
-		background-color: #000;
-		width: 300px;
-		border: 1px solid #000;
+		cursor: pointer;
 	}
-.navbar-default .navbar-brand:hover {
-		background-color: #000;
-		color: #28A7E9;
+
+
+.navbar-default .navbar-brand a:hover {
+		cursor: pointer;
 }
 
 .navbar-default .navbar-nav li a
 	{
-		font-weight: bold;
 		font-size: 13px;
 		height: 70px;
 		line-height: 40px;
@@ -196,7 +192,7 @@ h2 span
 /* start home */
 #home
 	{
-		background: url('../images/home-bg.jpg') no-repeat;
+		background: url('../images/home-bg.png') no-repeat;
 		background-size: cover;
 		padding-top: 160px;
 		padding-bottom: 100px;
