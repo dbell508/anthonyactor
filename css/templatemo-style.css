@@ -150,7 +150,7 @@ h2 span
 	}
 .navbar-default .navbar-brand img 
 	{
-		margin: 0 100px;
+		margin: 0 0 0 100px;
 		height: 75px;
 		cursor: pointer;
 		padding: 15px;
@@ -459,12 +459,17 @@ ul.nav.navbar-nav.navbar-right {
 /* start contact */
 #contact
 	{
-		background: #202020;
+		background-color: #9431a9;;
 	}
+
+#contact h2 span {
+	color: #000;
+}
+
 #contact .form-control
 	{
 		background: transparent;
-		border: 1px solid #28a7e9;
+		border: 1px solid #000;
 		border-radius: 2px;
 		box-shadow: none;
 		color: #fff;
@@ -481,7 +486,7 @@ ul.nav.navbar-nav.navbar-right {
 	}
 #contact input[type="submit"]
 	{
-		background: #28a7e9;
+		background: #000;
 		font-weight: bold;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
@@ -492,7 +497,7 @@ ul.nav.navbar-nav.navbar-right {
 	}
 #contact address
 	{
-		border-bottom: 1px solid #505050;
+		border-bottom: 1px solid #000;
 		padding-top: 30px;
 	}
 #contact address .address-title
@@ -524,6 +529,7 @@ ul.nav.navbar-nav.navbar-right {
 	{
 		padding: 30px 0 25px;
 		background-color: #000;
+		color: #9431a9;;
 	}
 #copyright p
 	{
@@ -564,7 +570,7 @@ ul.nav.navbar-nav.navbar-right {
 	}
 .social-icon li a:hover
 	{
-		background: #28a7e9;
+		background: #000;
 		border-color: transparent;
 	}
 /* end social icon */
