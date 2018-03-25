@@ -5,7 +5,7 @@ http://www.templatemo.com/preview/templatemo_450_awesome
 
 body
 	{
- 		background: #303030;
+ 		background: #222;
  		color: #ffffff;
 		font-family: 'Lato', sans-serif;
 		font-weight: 300;
@@ -16,10 +16,6 @@ a {
 	color: #47C6F8;
 }
 	
-a:hover {
-	color: #0FF;
-}
-
 /* start h2 */
 h2
 	{
@@ -91,7 +87,7 @@ h2 span
   	}
 .sk-spinner-wave div 
 	{
-  		background-color: #333;
+  		background-color: #9431a9;
   		height: 100%;
   		width: 6px;
   		display: inline-block;
@@ -175,6 +171,7 @@ ul.nav.navbar-nav.navbar-right {
 .navbar-default .navbar-nav li a:hover {
 		color: #b7b7b7 !important;
 		cursor: pointer;
+		border-bottom: 2px solid #9431a9;
 }
 
 .navbar-default .navbar-nav > li > a.current { 
@@ -370,6 +367,7 @@ ul.nav.navbar-nav.navbar-right {
 /* start video */
 #video {
 	background-color: #000;
+	background-image: url('../images/video-bg.png');
 	min-height: 650px;
 	text-align: center;
 	padding: 100px 0;
@@ -428,7 +426,7 @@ ul.nav.navbar-nav.navbar-right {
 	}
 #resume h4
 	{
-		color: #28a7e9;
+		color: #9431a9;
 		font-weight: 600;
 		padding-top: 4px;
 		padding-bottom: 14px;
