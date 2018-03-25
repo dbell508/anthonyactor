@@ -283,13 +283,15 @@ ul.nav.navbar-nav.navbar-right {
 	}
 #about .media-heading-wrapper h3
 	{
-		font-size: 18px;
+		font-size: 20px;
 		font-weight: bold;
 		padding-top: 20px;
 	}
 
 #about .media-body p {
-	line-height: 18px;
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: lighter;
 }
 
 #headshot {
@@ -330,7 +332,7 @@ ul.nav.navbar-nav.navbar-right {
 	}
 #gallery .gallery-thumb .gallery-overlay
 	{
-		background: #28a7e9;
+		background: #000;
 		top: 5px;
 		left: 5px;
 		right: 5px;
@@ -370,34 +372,13 @@ ul.nav.navbar-nav.navbar-right {
 	background-color: #000;
 	min-height: 650px;
 	text-align: center;
-	padding: 40px 80px 100px;
+	padding: 100px 0;
 }
 
-#video .video-wrapper
-	{
-		background: #000;
-		padding-bottom: 10px;
-		-webkit-transition: all 0.4s ease-in-out;
-		        transition: all 0.4s ease-in-out;
-		position: relative;
-	}
-#video .video-wrapper:hover
-	{
-		cursor: pointer;
-		opacity: 0.4;
-		bottom: 4px;
-	}
-#video .video-wrapper .video-des
-	{
-		padding: 20px;
-	}
-#video .video-wrapper .video-des span
-	{
-		color: #28a7e9;
-		display: block;
-		font-weight: bold;
-		padding-bottom: 12px;
-	}
+#video .vidTitle h2 {
+	text-align: left;
+	margin-top: 150px;
+}
 
 /* end video */
 
