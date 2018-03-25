@@ -363,7 +363,7 @@ ul.nav.navbar-nav.navbar-right {
 #gallery .gallery-thumb:hover .gallery-overlay
 	{
 		cursor: pointer;
-		opacity: 0.8;
+		opacity: 0.6;
 	}
 /* end portfolio */
 
@@ -433,6 +433,15 @@ ul.nav.navbar-nav.navbar-right {
 		padding-top: 4px;
 		padding-bottom: 14px;
 	}
+
+h5.degree {
+	font-weight: bolder;
+	font-size: 24px;
+}
+
+img.chapman {
+	width: 200px;
+}
 /* end resume */
 
 
