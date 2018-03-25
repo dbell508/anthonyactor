@@ -7,7 +7,7 @@ body
 	{
  		background: #303030;
  		color: #ffffff;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Lato', sans-serif;
 		font-weight: 300;
 		overflow-x: hidden; /* prevent horizontal scrollbar from appearing */
 	}
@@ -29,7 +29,7 @@ h2
 	}	
 h2 span
 	{
-		color: #28a7e9;
+		color: #9431a9; 
 		font-weight: bold;
 	}
 /* end h2 */
@@ -146,15 +146,14 @@ h2 span
 		border: 0;
 		box-shadow: none;
 		margin: 0 !important;
+		height: 100px;
 	}
 .navbar-default .navbar-brand img 
 	{
 		margin: 0 100px;
-		height: 80px;
-		line-height: 40px;
-		padding: 12px 20px 12px;
-		color: #fff;
+		height: 75px;
 		cursor: pointer;
+		padding: 15px;
 	}
 
 
@@ -162,15 +161,24 @@ h2 span
 		cursor: pointer;
 }
 
+ul.nav.navbar-nav.navbar-right {
+	margin: 25px 75px;
+}
+
 .navbar-default .navbar-nav li a
 	{
-		font-size: 13px;
-		height: 70px;
-		line-height: 40px;
+		margin-left: 15px;
+		font-size: 14px;
+		color: #fff;
 	}
 
+.navbar-default .navbar-nav li a:hover {
+		color: #b7b7b7 !important;
+		cursor: pointer;
+}
+
 .navbar-default .navbar-nav > li > a.current { 
-	color: #28A7E9; 
+	color: #9431a9; 
 }
 .templatemo-nav {
 	border-radius: 0;	
@@ -198,36 +206,45 @@ h2 span
 		padding-bottom: 100px;
 		min-height: 100vh;
 	}
+
 #home h1
 	{
-		font-weight: 300;
+
+		display: inline-block;
+		font-weight: 900;
 		font-size: 70px;
-		padding-bottom: 10px;
 	}
-#home h1 span
+
+#home .col-md-12
 	{
-		color: #28a7e9;
-		font-weight: bold;
+		padding: 0;
 	}
-#home .btn
+
+#home .anthony
 	{
-		background: transparent;
-		border-radius: 2px;
-		color: #fff;
+		background-color: #333;
+		padding: 0 15px 0 150px;
+		margin-right: 20px;
+
+	}
+
+#home .maglio
+	{
+		color: #9431a9; 
+	}
+
+#home .actor
+	{
+		padding-left: 150px;
 		font-size: 16px;
-		font-weight: bold;
-		margin-top: 20px;
-		width: 180px;
-		height: 60px;
-		padding-top: 18px;
-		-webkit-transition: all 0.4s ease-in-out;
-		        transition: all 0.4s ease-in-out;
+		color: #333;
 	}
-#home .btn:hover
+
+#home .actor span
 	{
-		background: #28a7e9;
-		border-color: transparent;
+		padding: 0 40px;
 	}
+
 .element {
 	height: 60px;
 	font-size: 20px;
