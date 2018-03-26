@@ -146,7 +146,7 @@ h2 span
 	}
 .navbar-default .navbar-brand img 
 	{
-		margin: 5px 0 0 150px;
+		margin: 5px 0 0 25px;
 		height: 50px;
 		cursor: pointer;
 	}
@@ -162,7 +162,7 @@ a.navbar-brand.current {
 }
 
 ul.nav.navbar-nav.navbar-right {
-	margin: 5px 75px;
+	margin: 5px 25px;
 }
 
 .navbar-default .navbar-nav li a
@@ -614,7 +614,7 @@ img.chapman {
 /* end 360 media quires */
 
 /* start 768 media quires */
-@media only screen and ( max-width: 767px ) {
+@media only screen and ( max-width: 768px ) {
 	#home
 		{
 			min-height: 300px;
@@ -642,13 +642,24 @@ img.chapman {
 	.navbar-collapse {
 		max-height: 300px;
 		overflow-y: auto;
+		border: 0px;
+		padding: 0;
+
 	}
 	.navbar-default .navbar-nav li a {
-		height: 45px;
-		padding-top: 5px;
-		padding-bottom: 5px;
+		height: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 		line-height: 35px;
 	}
+
+	ul.nav.navbar-nav.navbar-right {
+		background-color: rgba(0,0,0,.9);
+		text-align: center;
+		border-top: 0;
+		margin: 0;
+	}
+
 }
 /* end 768 media quires */
 
