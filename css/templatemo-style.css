@@ -261,9 +261,9 @@ ul.nav.navbar-nav.navbar-right {
 	padding: 80px 80px 100px;
 }
 
-#about h2 {
+/*#about h2 {
 	text-align: left;
-}
+}*/
 
 #about .media-heading-wrapper
 	{
@@ -296,10 +296,10 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 #headshot {
-	padding: 20px 25px 50px 75px;
+	padding: 20px 25px 50px;
 }
 
-#about .media img {
+#about .media {
 	height: 600px;
 }
 /* end about */
@@ -462,7 +462,7 @@ img.chapman {
 
 #resume table {
 	margin: 0 auto;
-	width: 80%;
+	width: 90%;
 }
 
 
@@ -642,6 +642,14 @@ tr {
 	#home .actor span {
 		padding: 0 30px;
 	}
+
+	#resume {
+		padding: 40px 20px 80px;
+	}
+
+	#resume .agency {
+		margin-bottom: 20px;
+	}
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
@@ -749,6 +757,21 @@ tr {
 		margin: 0;
 	}
 
+	#headshot {
+		padding: 20px 10px;
+		height: 300px;
+	}
+
+	#about{
+		padding: 40px 20px 80px;
+	}
+
+	#gallery
+	{
+		padding: 40px 20px 80px;
+		background-color: #fff;
+	}
+
 }
 /* end 768 media quires */
 
@@ -774,6 +797,10 @@ tr {
 
 	#home .actor span {
 		padding: 0 25px;
+	}
+
+	td {
+		font-size: 12px;
 	}
 
 }
