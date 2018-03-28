@@ -459,6 +459,36 @@ h5.degree {
 img.chapman {
 	width: 200px;
 }
+
+#resume table {
+	margin: 0 auto;
+	width: 80%;
+}
+
+
+td {
+	width: 30%;
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+}
+
+tr {
+	border-bottom: 1px solid #555;
+}
+
+.resBtn {
+	background-color: #9431a9;
+	border: 0;
+	padding: 20px;
+	width: 200px;
+	margin: 100px 0 25px;
+}
+
+.resBtn:hover {
+	background-color: #651c74;
+}
+
 /* end resume */
 
 
@@ -466,7 +496,7 @@ img.chapman {
 /* start contact */
 #contact
 	{
-		background-color: #9431a9;;
+		background-color: #9431a9;
 	}
 
 #contact h2 span {
