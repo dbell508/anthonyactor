@@ -483,6 +483,8 @@ tr {
 	padding: 20px;
 	width: 200px;
 	margin: 100px 0 25px;
+	-webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .resBtn:hover {
@@ -616,9 +618,29 @@ tr {
 	#home { 
 		background: url('../images/home-bg-800px.png') no-repeat;
 		background-size: contain;
-		padding-top: 200px;
+		padding-top: 150px;
 		padding-bottom: 100px;
 		min-height: 100vh;
+	}
+
+	#home .anthony {
+		font-size: 60px;
+		padding: 0 10px 0 50px;
+		margin-right: 10px;
+
+	}
+
+	#home .maglio {
+		font-size: 60px;
+	}
+
+	#home .actor {
+		font-size: 14px;
+		padding-left: 50px;
+	}
+
+	#home .actor span {
+		padding: 0 30px;
 	}
 }
 
@@ -650,6 +672,30 @@ tr {
 		        transition: all 0.4s ease-in-out;
 	}
 
+	#home {
+		padding-top: 100px;
+	}
+
+	#home .anthony {
+		font-size: 40px;
+		padding: 0 10px 0 30px;
+		margin-right: 10px;
+
+	}
+
+	#home .maglio {
+		font-size: 40px;
+	}
+
+	#home .actor {
+		font-size: 12px;
+		padding-left: 30px;
+	}
+
+	#home .actor span {
+		padding: 0 20px;
+	}
+
 }
 /* end 360 media quires */
 
@@ -657,9 +703,12 @@ tr {
 @media only screen and ( max-width: 768px ) {
 	#home
 		{
-			min-height: 300px;
+			min-height: 500px;
 			padding-top: 80px;
 			padding-bottom: 60px;
+			margin-top: 60px;
+			background: url('../images/home-bg.png') no-repeat;
+			background-size: contain;
 		}
 	#home h1
 		{
@@ -703,6 +752,33 @@ tr {
 }
 /* end 768 media quires */
 
+@media only screen and ( max-width: 600px ) {
+	#home {
+		background: url('../images/home-bg_mobile.png') no-repeat;
+		background-size: cover;
+		padding-top: 400px;
+	}
+
+	#home .anthony,
+	#home .maglio {
+		font-size: 36px;
+	}
+
+	#home .actor {
+		color: #fff;
+		width: 95%;
+		margin: 15px auto;
+		font-size: 16px;
+
+	}
+
+	#home .actor span {
+		padding: 0 25px;
+	}
+
+}
+
+
 /* start 360 media quires */
 @media only screen and ( max-width: 360px ) {
 	header .social-icon
@@ -717,7 +793,7 @@ tr {
 		}
 	#home h1
 		{
-			font-size: 32px;
+			font-size: 34px;
 		}
 
 }
