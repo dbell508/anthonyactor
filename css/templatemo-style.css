@@ -300,7 +300,7 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 #about .media {
-	height: 600px;
+	height: 100%;
 }
 /* end about */
 
@@ -763,13 +763,12 @@ a.resBtn {
 		margin: 0;
 	}
 
-	#headshot {
-		padding: 20px 10px;
-		height: 300px;
-	}
-
 	#about{
 		padding: 40px 20px 80px;
+	}
+
+	div#headshot.media {
+		padding: 20px 0 50px;
 	}
 
 	#gallery
