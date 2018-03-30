@@ -412,9 +412,31 @@ ul.nav.navbar-nav.navbar-right {
 		padding: 40px 80px 100px;
 }
 
-#resume .agency{
-	text-align: center;
+#resume .agency {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#resume .agency div {
+	display: inline-block;
+}
+
+#resume .agency .agencyInf{
+	text-align: left;
 	padding: 20px 0 10px;
+	margin: 0 20px;
+}
+
+#resume .agency .agencyInf img {
+	height: 75px;
+	margin-bottom: 15px;
+}
+
+#resume .dimensions{
+	padding: 20px 20px;
+	text-align: right;
+	margin-top: 66px;
+	float: right;
 }
 
 .res-label{
@@ -433,7 +455,6 @@ ul.nav.navbar-nav.navbar-right {
 #resume .col-md-4 hr {
 	border-top:1px solid #28a7e9;
 }
-
 
 #resume .active
 	{
@@ -468,21 +489,37 @@ img.chapman {
 	width: 200px;
 }
 
-#resume table {
+#resume table.rezzy {
 	margin: 0 auto;
 	width: 90%;
 }
 
 
-td {
+#resume table.rezzy td {
 	width: 30%;
 	padding: 10px;
 	font-size: 16px;
 	text-align: center;
 }
 
-tr {
+#resume table.rezzy tr {
 	border-bottom: 1px solid #555;
+}
+
+#resume table.skills {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#resume table.skills td {
+	text-align: center;
+	vertical-align: top;
+	padding: 10px 0;
+	width: 33%;
+}
+
+#resume table.skills tr {
+	height: 40px;
 }
 
 .btnContain {
