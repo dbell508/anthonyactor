@@ -322,6 +322,11 @@ ul.nav.navbar-nav.navbar-right {
 
 .col-md-4 .gallery-overlay {
 	overflow: hidden;
+	text-align: center;
+}
+
+.col-md-4 .gallery-overlay h2 {
+	color: #fff;
 }
 
 #gallery .gallery-thumb,
@@ -351,7 +356,8 @@ ul.nav.navbar-nav.navbar-right {
 #gallery .gallery-thumb .gallery-overlay h4
 	{
 		font-weight: bold;
-		padding-bottom: 10px;
+		margin-bottom: 5px;
+		font-size: 24px;
 	}
 #gallery .gallery-thumb .gallery-overlay .btn
 	{
@@ -364,7 +370,9 @@ ul.nav.navbar-nav.navbar-right {
 #gallery .gallery-thumb:hover .gallery-overlay
 	{
 		cursor: pointer;
-		opacity: 0.6;
+		opacity: 0.8;
+		padding-top: 90px;
+		color: #fff;
 	}
 /* end portfolio */
 
