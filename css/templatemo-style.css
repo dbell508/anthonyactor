@@ -146,15 +146,15 @@ h2 span
 	}
 .navbar-default .navbar-brand img 
 	{
-		margin: 5px 0 0 25px;
-		height: 50px;
+		margin: 5px 0 0 50px;
+		height: 40px;
 		cursor: pointer;
 	}
 
 
 a.navbar-brand,
 a.navbar-brand.current {
-	padding: 0;
+	padding: 5px;
 }
 
 .navbar-default .navbar-brand a:hover {
@@ -854,6 +854,10 @@ a.resBtn {
 /* end 768 media quires */
 
 @media only screen and ( max-width: 600px ) {
+	.navbar-default .navbar-brand img {
+		margin: 5px 0 0 25px;
+	}
+
 	#home {
 		background: url('../images/home-bg_mobile.png') no-repeat;
 		background-size: cover;
