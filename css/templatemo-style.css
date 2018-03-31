@@ -881,6 +881,20 @@ a.resBtn {
 		font-size: 12px;
 	}
 
+	#resume .agency .agencyInf {
+		clear: both;
+		width: 100%;
+		margin: 0 0 10px 0;
+		text-align: center;
+	}
+
+	#resume .agency .dimensions {
+		clear: both;
+		width: 100%;
+		margin: 0 0 25px 0;
+		text-align: center;
+	}
+
 }
 
 
