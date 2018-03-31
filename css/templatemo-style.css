@@ -506,6 +506,11 @@ img.chapman {
 	border-bottom: 1px solid #555;
 }
 
+#resume .school {
+	text-align: center;
+}
+
+
 #resume table.skills {
 	width: 90%;
 	margin: 0 auto;
@@ -516,6 +521,16 @@ img.chapman {
 	vertical-align: top;
 	padding: 10px 0;
 	width: 33%;
+}
+
+#resume table.skills td h5 {
+	font-size: 15px;
+}
+
+#resume table.skills td p {
+	font-size: 12px;
+	font-weight: lighter;
+	color: #999;
 }
 
 #resume table.skills tr {
@@ -820,6 +835,19 @@ a.resBtn {
 	{
 		padding: 40px 20px 80px;
 		background-color: #fff;
+	}
+
+	#resume table.skills {
+		width: 100%;
+	}
+
+	#resume table.rezzy td,
+	#resume table.skills td h5 {
+		font-size: 13px;
+	}
+
+	#resume table.skills td p {
+		font-size: 10px;
 	}
 
 }
